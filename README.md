@@ -49,9 +49,7 @@ plt.subplot(616); plt.plot(t,dm_demod[:-1],'g--'); plt.title("DM Demodulation");
 plt.tight_layout()
 plt.show()
 ```
-# Output Waveform
-```
+# Output Waveform: 
 <img width="511" height="506" alt="image" src="https://github.com/user-attachments/assets/8b692a32-4c08-470e-8d31-8f71be7648d6" />
 
-```
 # Results :
