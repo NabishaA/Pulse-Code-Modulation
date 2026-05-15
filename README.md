@@ -4,7 +4,7 @@
 # Aim
 Write a simple Python program for the modulation and demodulation of PCM, and DM.
 # Tools required :
-CO-LAB
+Google CO-LAB
 # Program  :
 ```
 import numpy as np
@@ -23,7 +23,9 @@ L = 16
 step = (msg.max()-msg.min())/L
 pcm = np.round(msg/step)*step
 pcm_demod = pcm  # Ideal reconstruction
-
+```
+# Program:
+```
 # -------- Delta Modulation --------
 delta = 0.05
 dm = [0]
@@ -53,3 +55,4 @@ plt.show()
 <img width="511" height="506" alt="image" src="https://github.com/user-attachments/assets/8b692a32-4c08-470e-8d31-8f71be7648d6" />
 
 # Results :
+Thus, the python program for the modulation and demodulation of PCM, and DM has been executed and verified successfully.
